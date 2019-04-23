@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">YZ Weather</string>
     <string name="action_settings">Settings</string>
+    <string name="pref_theme">Dark mode</string>
+    <string name="pref_theme_on">Dark appearence for night</string>
+    <string name="pref_theme_off">It\'s suitable for bright day</string>
+    <string name="pref_theme_title">Theme</string>
+    <string name="pref_network_title">Network</string>
+    <string name="pref_notif_title">Notifications</string>
+    <string name="pref_status_bar">Status bar</string>
+    <string name="pref_status_bar_summ">Show notifications in the status bar</string>
+    <string name="pref_pop_up">Pop-up window</string>
+    <string name="pref_pop_up_summ">Show notifications in the pop up window</string>
+    <string name="pref_up_time">Update time</string>
+    <string name="pref_up_time_default">120</string>
 </resources>

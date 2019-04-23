@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_theme_title"
+        android:key="pref_key_theme_title">
+        <CheckBoxPreference
+            android:key="pref_theme"
+            android:title="@string/pref_theme"
+            android:summaryOn="@string/pref_theme_on"
+            android:summaryOff="@string/pref_theme_off"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/pref_network_title"
+        android:key="pref_key_network_title">
+        <ListPreference
+            android:key="pref_up_time"
+            android:title="@string/pref_up_time"
+            android:dialogTitle="@string/pref_up_time"
+            android:entries="@array/pref_up_time_entries"
+            android:entryValues="@array/pref_up_time_values"
+            android:defaultValue="@string/pref_up_time_default" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_notif_title"
+        android:key="pref_key_notif_title">
+        <CheckBoxPreference
+            android:key="pref_status_bar"
+            android:title="@string/pref_status_bar"
+            android:summary="@string/pref_status_bar_summ"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="pref_pop_up"
+            android:title="@string/pref_pop_up"
+            android:summary="@string/pref_pop_up_summ"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 </PreferenceScreen>
